@@ -6,6 +6,7 @@ Date: 11/1/2018
 References:
 https://www.youtube.com/watch?v=tKTZoB2Vjuk
 https://stackoverflow.com/questions/3411771/multiple-character-replace-with-python
+https://www.youtube.com/watch?v=tKTZoB2Vjuk
 """
 
 
@@ -28,7 +29,7 @@ def DrEvil(dollar_amt):
 def FixStart(word_to_star):
     """
     Function takes an input string, notes the first letter of that string, then replaces subsequent appearances
-    of that character and replaces them with '*'
+    of that character them with '*'
     :param str word_to_star: a string with repetitions of the first letter of that word.
     :return: a printed string in the format noted above
     :rtype: str
