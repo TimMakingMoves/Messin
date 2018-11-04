@@ -29,7 +29,7 @@ def dr_evil(dollar_amt):
 def fix_start(word_to_star):
     """
     Function takes an input string, notes the first letter of that string, then replaces subsequent appearances
-    of that character them with '*'
+    of that character with '*'
     :param str word_to_star: a string with repetitions of the first letter of that word.
     :return: a printed string in the format noted above
     :rtype: str
