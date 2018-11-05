@@ -7,14 +7,13 @@ References:
 https://developers.google.com/edu/python/exercises/basic
 https://www.w3schools.com/python/ref_list_sort.asp
 https://docs.python.org/3/howto/sorting.html
+
+Copyright 2010 Google Inc.
+Licensed under the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+Google's Python Class
+http://code.google.com/edu/languages/google-python-class/
 """
-
-# Copyright 2010 Google Inc.
-# Licensed under the Apache License, Version 2.0
-# http://www.apache.org/licenses/LICENSE-2.0
-
-# Google's Python Class
-# http://code.google.com/edu/languages/google-python-class/
 
 
 def match_ends(words):
@@ -65,8 +64,6 @@ def sort_last(tuples):
     return sorted_tuples
 
 
-# Simple provided test() function used in main() to print
-# what each function returns vs. what it's supposed to return.
 def test(got, expected):
     """
     Simple provided test() function used in main() to print what each function returns vs. what it's supposed to return.
@@ -82,7 +79,6 @@ def test(got, expected):
     print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
 
-# Calls the above functions with interesting inputs.
 def main():
     """
     Calls the above functions with interesting inputs. prints out the function names if everything goes smoothly!
@@ -113,5 +109,7 @@ def main():
 
 
 if __name__ == '__main__':
-    # Standard boilerplate to call the main() function.
+    """
+    Standard boilerplate to call the main() function.
+    """
     main()
