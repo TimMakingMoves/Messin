@@ -117,5 +117,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # Standard boilerplate to call the main() function!
+    # Standard boilerplate to call the main() function.
     main()
