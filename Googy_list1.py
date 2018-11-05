@@ -1,7 +1,7 @@
 """
 Googy_list.py
 Developer: Tim Weiser
-Project: Googy_list1.py.py
+Project: Googy_list1.py
 Date: 11/4/2018
 References:
 https://developers.google.com/edu/python/exercises/basic
