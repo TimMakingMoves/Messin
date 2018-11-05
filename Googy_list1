@@ -16,11 +16,6 @@ https://docs.python.org/3/howto/sorting.html
 # http://code.google.com/edu/languages/google-python-class/
 
 
-# Given a list of strings, return the count of the number of
-# strings where the string length is 2 or more and the first
-# and last chars of the string are the same.
-
-
 def match_ends(words):
     """
     A function that, given a list of strings, returns the count of the number
