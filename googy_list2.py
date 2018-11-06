@@ -21,16 +21,25 @@ def remove_adjacent(nums):
     Function that, given a list of numbers, return a list where
     all adjacent == elements have been reduced to a single element,
     so [1, 2, 2, 3] returns [1, 2, 3]. You may create a new list or modify the passed in list.
+    NOTE: The solution given by Google is below. My solutions (commented in) were incorrect, because I didn't take into
+    consideration the fact that adjacent equal terms were the only items to be removed- not all items repeated.
     :param list nums: A list of numbers, some repeated.
     :return: a printed string in the format noted above
     :rtype: list
     """
-    entries_list = []
-    for number in nums:
-        if number not in entries_list:
-            entries_list.append(number)
+    result = []
+    for num in nums:
+        if len(result) == 0 or num != result[-1]:
+            result.append(num)
+    return result
 
-    return entries_list
+
+#    entries_list = []
+#    for number in nums:
+#        if number not in entries_list:
+#            entries_list.append(number)
+
+#    return entries_list
 
 
 # Below is a secondary solution that manipulates the list passed in, not creating a new one.
