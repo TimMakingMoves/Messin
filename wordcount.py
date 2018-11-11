@@ -43,7 +43,7 @@ def make_dict_of_word_count(list_of_words):
     """
     Function that takes in a list of words in str format and puts them into the keys of a dictionary, with the values
     being the number of times that key word shows up in the original string.
-        NOTE: Those if/and statements get pretty confusing, because I didn't know you could access a dictionary's
+    NOTE: Those if/and statements get pretty confusing, because I didn't know you could access a dictionary's
     value after it was already set- otherwise I'd just create one list of words and increment each key's value like in
     the Google-provided solution.
     :param list list_of_words: list of a bunch of strings of all words in the above file
